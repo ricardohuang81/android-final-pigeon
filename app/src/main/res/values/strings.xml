@@ -1,0 +1,96 @@
+<resources>
+
+    <!--Project Title-->
+    <string name="titleStr">
+        MY PIGEON EXPERIENCE
+    </string>
+
+    <!--Intro Text-->
+    <string name="appIntroStr">
+        My app introduces the use and features of smartphones in modern life and how to create working Android applications. I designed each of the App screen layout using XML and the App dynamic using Java. It also shows my life experiences as a cool smooth pigeon, like where I hang, fly around, the music I groove to, the animals I don\'t wish to be because they\'re ENDANGERED and the autos I be poopin on on a daily basis!
+    </string>
+
+    <!--Buildings Text-->
+    <string name="buildingsIntroStr">
+        This app shows all of my tallest building conquests. Burj Khalifa, Freedom Tower, Tapei 101, you know how I do. When I\'m feeling low-key I fly to NYC and lounge on the Brooklyn Bridge. Squawk!
+    </string>
+    <string name="btnShowBuildingsStr">
+        PIGEON LAIRS
+    </string>
+    <string name="btnHideBuildingsStr">
+        CLOSE
+    </string>
+    <string name="btnBuildingsAppStr">
+        CHECK MY LAIRS APP
+    </string>
+
+    <!--Music Text-->
+    <string name="musicIntroStr">
+        This app shows my top tunes. Hawaiian Kickboxer for when I\'m fluffin on the beaches of Honolulu and Drumadics when I\'m in NYC subways hustlin and bustlin.
+    </string>
+    <string name="btnShowMusicStr">
+        PIGEON MUSIC
+    </string>
+    <string name="btnHideMusicStr">
+        CLOSE
+    </string>
+    <string name="btnMusicAppStr">
+        CHECK MY MUSIC APP
+    </string>
+
+    <!--Endangered Text-->
+    <string name="endangeredIntroStr">
+        This app shows some animals that wish they were 100% pigeon because they are ENDANGERED and nearly out of existence while we pigeons are thriving. If I\'m not too busy flossin with my pigeon army, I might fly around these animals and taunt them about being endangered.
+    </string>
+    <string name="btnShowEndangeredStr">
+        PIGEON POSERS
+    </string>
+    <string name="btnHideEndangeredStr">
+        CLOSE
+    </string>
+    <string name="btnEndangeredAppStr">
+        CHECK MY POSERS APP
+    </string>
+
+    <!--Car Text-->
+    <string name="carIntroStr">
+        This app shows the type of cars I be poopin on on daily basis! Also the amount of moola I be making from letting these foolish human beings park on our streets.
+    </string>
+    <string name="btnShowCarStr">
+        PIGEON POTTIES
+    </string>
+    <string name="btnHideCarStr">
+        CLOSE
+    </string>
+    <string name="btnCarAppStr">
+        CHECK MY POTTIES APP
+    </string>
+
+    <!-- Buildings Strings -->
+    <string name="bridge">Brooklyn Bridge</string>
+    <string name="tower">CN Tower</string>
+    <string name="title_activity_freedom">Freedom Tower</string>
+    <string name="title_activity_101">Taipei 101</string>
+    <string name="title_activity_burj">Burj Khalifa</string>
+    <string name="btnBack">BACK</string>
+
+    <!-- Music Strings -->
+    <string name="btnDrums">Drumadics</string>
+    <string name="btnHawaiian">Hawaiian Kickboxer</string>
+
+    <!-- Endangered Strings -->
+    <string name="imgLarge">Endangered Species Images</string>
+
+    <!-- Car Strings -->
+    <string name="txtTitle">Electric Car Financing</string>
+    <string name="txtYears">Number of Years</string>
+    <string name="txtLoan">Car Loan Amount</string>
+    <string name="txtInterest">Interest Rate</string>
+
+
+
+
+
+
+
+</resources>

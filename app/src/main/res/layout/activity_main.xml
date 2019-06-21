@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccentLight"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif-monospace"
+                android:text="@string/titleStr"
+                android:textColor="@color/colorPrimary"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:text="@string/appIntroStr"
+                android:textColor="#8A2BE2"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:id="@+id/imgBuildings"
+                android:layout_width="380dp"
+                android:layout_height="252dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/buildings"
+                />
+
+            <ToggleButton
+                android:id="@+id/btnShowHidBuildingsTxt"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:fontFamily="serif-monospace"
+                android:textOn="@string/btnHideBuildingsStr"
+                android:textOff="@string/btnShowBuildingsStr"
+                android:textColor="#8A2BE2"
+                />
+
+            <TextView
+                android:id="@+id/textBuildings"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:fontFamily="monospace"
+                android:text="@string/buildingsIntroStr"
+                android:textColor="#ad1457"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:visibility="invisible"
+                />
+
+            <Button
+                android:id="@+id/btnBuildingsApp"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#ffeb3b"
+                android:fontFamily="serif-monospace"
+                android:text="@string/btnBuildingsAppStr"
+                android:textColor="#ad1457"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:background="@drawable/border"
+                android:id="@+id/imgMusic"
+                android:layout_width="380dp"
+                android:layout_height="252dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/music"
+                />
+
+            <ToggleButton
+                android:id="@+id/btnShowHideMusicTxt"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:fontFamily="serif-monospace"
+                android:textOn="@string/btnHideMusicStr"
+                android:textOff="@string/btnShowMusicStr"
+                android:textColor="#8A2BE2"
+                />
+
+            <TextView
+                android:id="@+id/textMusic"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:fontFamily="monospace"
+                android:text="@string/musicIntroStr"
+                android:textColor="#ad1457"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:visibility="invisible"
+                />
+
+            <Button
+                android:id="@+id/btnMusicApp"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#ffeb3b"
+                android:fontFamily="serif-monospace"
+                android:text="@string/btnMusicAppStr"
+                android:textColor="#ad1457"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:id="@+id/imgEndangered"
+                android:layout_width="380dp"
+                android:layout_height="222dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/endangered"
+                />
+
+            <ToggleButton
+                android:id="@+id/btnShowHideEndangeredTxt"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:fontFamily="serif-monospace"
+                android:textOn="@string/btnHideEndangeredStr"
+                android:textOff="@string/btnShowEndangeredStr"
+                android:textColor="#8A2BE2"
+                />
+
+            <TextView
+                android:id="@+id/textEndangered"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:fontFamily="monospace"
+                android:text="@string/endangeredIntroStr"
+                android:textColor="#ad1457"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:visibility="invisible"
+                />
+
+            <Button
+                android:id="@+id/btnEndangeredApp"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#ffeb3b"
+                android:fontFamily="serif-monospace"
+                android:text="@string/btnEndangeredAppStr"
+                android:textColor="#ad1457"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:id="@+id/imgCar"
+                android:layout_width="380dp"
+                android:layout_height="198dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/car"
+                />
+
+            <ToggleButton
+                android:id="@+id/btnShowHideCarTxt"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:fontFamily="serif-monospace"
+                android:textOn="@string/btnHideCarStr"
+                android:textOff="@string/btnShowCarStr"
+                android:textColor="#8A2BE2"
+                />
+
+            <TextView
+                android:id="@+id/textCar"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:fontFamily="monospace"
+                android:text="@string/carIntroStr"
+                android:textColor="#ad1457"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:visibility="invisible"
+                />
+
+            <Button
+                android:id="@+id/btnCarApp"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:background="#ffeb3b"
+                android:fontFamily="serif-monospace"
+                android:text="@string/btnCarAppStr"
+                android:textColor="#ad1457"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
