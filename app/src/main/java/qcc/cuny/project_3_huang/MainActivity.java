@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Button to link Test Activity
+        // Button to link Endangered Activity
         btnEndangeredApp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

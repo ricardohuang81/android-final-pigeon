@@ -14,9 +14,9 @@ public class Buildings extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // create a string array
-        String[] attraction = {"Brooklyn Bridge", "CN Tower", "Freedom", "Taipei101",  "Burj", "Home"};
+        String[] attraction = { "Home", "Brooklyn Bridge", "CN Tower", "Freedom", "Taipei101",  "Burj" };
         // Display the array values using android.R.layout
-        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, attraction));
+        setListAdapter(new ArrayAdapter<>(this, android.R.layout.select_dialog_item, attraction));
     }
     //
     // when user selects by clicking on one of the array elements in the array list
@@ -27,22 +27,23 @@ public class Buildings extends ListActivity {
         {
             switch (position) {
                 case 0:
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.newyork-english.edu/rookie-blog/wp-content/uploads/2015/01/121212.png")));
+                    startActivity(new Intent(Buildings.this, MainActivity.class));
                     break;
                 case 1:
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://i.pinimg.com/originals/fd/82/b6/fd82b631b1db400a14f5b7c50487c9f3.png")));
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.newyork-english.edu/rookie-blog/wp-content/uploads/2015/01/121212.png")));
                     break;
                 case 2:
-                    startActivity(new Intent(Buildings.this, freedom.class));
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://i.pinimg.com/originals/fd/82/b6/fd82b631b1db400a14f5b7c50487c9f3.png")));
                     break;
                 case 3:
-                    startActivity(new Intent(Buildings.this, taipei.class));
+                    startActivity(new Intent(Buildings.this, freedom.class));
                     break;
                 case 4:
-                    startActivity(new Intent(Buildings.this, burj.class));
+                    startActivity(new Intent(Buildings.this, taipei.class));
                     break;
                 case 5:
-                    startActivity(new Intent(Buildings.this, MainActivity.class));
+                    startActivity(new Intent(Buildings.this, burj.class));
+                    break;
             }
         }
     }

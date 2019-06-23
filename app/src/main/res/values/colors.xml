@@ -6,4 +6,11 @@
     <color name="colorAccent">#607d8b</color>
     <color name="colorAccentDark">#34515e</color>
     <color name="colorAccentLight">#8eacbb</color>
+    <!-- Car Colors -->
+    <color name="carColorPrimary">#00e676</color>
+    <color name="carColorPrimaryDark">#00b248</color>
+    <color name="carColorPrimaryLight">#66ffa6</color>
+    <color name="carColorAccent">#ffc107</color>
+    <color name="carColorAccentDark">#c79100</color>
+    <color name="carColorAccentLight">#fff350</color>
 </resources>
